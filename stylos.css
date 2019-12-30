@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin:auto;
+}
+
+
+
+/* <---------------heder-------------< */
+
+ul{
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    background-color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+/* <---------------heder-------------< */
+
+.contenedor-superior{
+    width: 100%;
+    height: 500px;
+    background-color: wheat;
+  
+}
+
+/* <-------------CUERPO----------------> */
+
+
+.logo-superior{
+    width: 100%;
+    height: 500px;
+    background-image: url(img/img1.jpg);
+    background-size: 1520px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.titulos-paginas{
+    width: 230px;
+    height: 400px;
+    background-color: red;
+    color: white;
+    font-size: 70px;
+    font-family: 'Jaldi', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 900px;
+    height: 900px;
+    background-color: aqua;
+    margin: auto;
+}
+
+
+.contenedor-card{
+    width: 100%;
+    height: 900px;
+    font-family: 'Coda Caption', sans-serif;
+    display: grid;
+    grid-template-rows: 3fr 3fr 3fr;
+    grid-template-columns: 3fr 3fr;
+}
+
+.img-card{
+    width: 100%;
+    height: 300px;
+    background-image: url(img/img3.jpg);
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
